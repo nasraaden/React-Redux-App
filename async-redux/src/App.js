@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Advice from "./components/Advice"
-import axios from "axios"
+import Countries from './components/Countries';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Advice of the Day 💌</h1>
-      <Advice />
+      <h1>Countries of the World 🌏</h1>
+      <Countries />
     </div>
   );
 }
