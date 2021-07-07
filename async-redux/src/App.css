@@ -1,0 +1,18 @@
+body{
+  background: ghostwhite;
+}
+
+.App {
+  text-align: center;
+}
+
+img{
+  width: 250px;
+  height: 150px;
+}
+
+.countries-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
